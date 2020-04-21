@@ -1,0 +1,136 @@
+.insta{
+padding-top: 0px;
+height: 615px;
+float: right;
+margin: -20px;
+margin-right:-35px;
+}
+body{
+    background-color: #fafafa!important;
+}
+.container{
+    margin-top: 20px;
+}
+.right-column{
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    padding: 40px;
+    margin: 10px 40px 40px 10px;
+}
+.logo{
+    height: 80px;
+   
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+button img{
+    height: 20px;
+    padding: 0px 2px 2px;   
+}
+
+.or{
+    font-size: 13px!important;
+    color: #999;
+    font-weight:600;
+}
+.or::before{
+    content: '';
+    background: #efefef;
+    display:block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    top: 11px;
+}
+.or::after{
+    content: '';
+    background: #efefef;
+    display:block;
+    height: 2px;
+    width: 110px;
+    position: relative;
+    bottom: 11px;
+    left: 160px;
+}
+.form-group
+{
+    margin-bottom: 6px;
+}
+.form-control
+{
+    background: #fafafa!important;
+    border: 1px solid #efefef!important;
+    font-size: 12px!important;
+}
+::placeholder
+{
+color: #999!important;
+}
+.btn{
+    margin: 12px auto;
+    padding: 2px!important;
+    font-weight: 600px!important;
+}
+.btn-primary
+{
+    background-color: #3897f0!important;
+    border: 1px solid  #3897f0!important;
+}
+.pas{
+    margin-top:20px;
+    font-size: 12px;
+    margin-bottom: -20px;
+}
+.last{
+    background: #fff;
+    text-align: center;   
+    border: 1px solid #e6e6e6;
+    width: 350px;
+    height: 65px;
+    padding: 20px;
+    font-size: 14px;
+    margin-top:-30px;
+    margin-left: -5px;
+}
+.apps{
+    text-align: center;  
+    margin-top: 20px;
+    font-size: 13px;
+    padding-top: -10px;
+    padding-left: 10px;
+}
+.row{
+    margin-top: 60px;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+div ul
+{
+ list-style: none; 
+}
+div ul li
+{
+    display: inline;
+    padding: 6px;
+    text-decoration-color: blue;
+    text-transform: uppercase;
+   
+}
+.col-sm-4{
+    text-align: center;
+    padding-left: 50px;
+}
+@media all screen and (max-width:400)
+{
+
+}
+@media screen and (max-width:700)and (min-width:401)
+{
+    #i{
+        display: none;
+    }
+}
+@media screen and (min-width: 401px) and (max-width: 1024px) {
+    #my-content { display: none; }   /* hide it elsewhere */
+  }
